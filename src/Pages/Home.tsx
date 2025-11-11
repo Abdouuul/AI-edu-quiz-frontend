@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -13,9 +15,9 @@ export default function Home() {
           or JSON. Save time, inspire learning.
         </p>
 
-        <button className="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
+        <Link to={"/create"} className="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
           Start Creating
-        </button>
+        </Link>
       </main>
 
       <section id="features" className="py-20 bg-white">

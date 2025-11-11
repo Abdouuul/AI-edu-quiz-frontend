@@ -12,7 +12,7 @@ export default function Navbar() {
             <Link to="/lessons" className="text-gray-700 hover:text-blue-600">
                 Lessons
             </Link>
-            <Link to="/quiz" className="text-gray-700 hover:text-blue-600">
+            <Link to="/quizzes" className="text-gray-700 hover:text-blue-600">
                 Quiz
             </Link>
             <Link to="/login" className="text-gray-700 hover:text-blue-600">

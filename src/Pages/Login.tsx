@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Login() {
   return (
     <div className="flex h-screen">
@@ -50,9 +52,9 @@ export default function Login() {
 
             <p className="text-sm text-gray-500 mt-4">
               Don’t have an account?{" "}
-              <a href="#" className="text-blue-600 hover:underline">
+              <Link to="/signup" className="text-blue-600 hover:underline">
                 Sign up
-              </a>
+              </Link>
             </p>
           </form>
         </div>
